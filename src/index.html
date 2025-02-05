@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="p-5 bg-slate-800 font-bangers">
+  <header>
+    <div class="container bg-slate-50 rounded shadow-md mx-auto flex flex-col gap-1.5 justify-center items-center p-2.5">
+      <div class="title font-bangers text-5xl">GeeksterPok</div>
+      <div class="input-container bg-slate-300 container mx-auto flex flex-col gap-1.5 md:gap-0 md:flex-row justify-between items-center p-4 rounded">
+        <div>
+          <select name="" id="type-list" class="bg-white md:h-full md:w-[120px] p-0.5 md:p-1.5 rounded">
+            <option value="">Types</option>
+            <option value="Grass">Grass</option>
+            <option value="Fire">Fire</option>
+            <option value="Water">Water</option>
+            <option value="Bug">Bug</option>
+            <option value="Normal">Normal</option>
+            <option value="Poison">Poison</option>
+            <option value="Electric">Electric</option>
+            <option value="Fairy">Fairy</option>
+            <option value="Fighting">Fighting</option>
+            <option value="Psychic">Psychic</option>
+            <option value="Rock">Rock</option>
+            <option value="Ghost">Ghost</option>
+            <option value="Ice">Ice</option>
+            <option value="Dragon">Dragon</option>
+          </select>
+          <button id="filter-by-type" class="px-2 md:px-7 tracking-widest md:py-1 bg-slate-800 text-white rounded cursor-pointer">Filter by type</button>
+        </div>
+        <div class="grow-1 flex justify-center">
+          <input type="text" id="name-input" placeholder="Enter Pokémon Name" class="border border-slate-800 w-full md:w-[60%] h-full bg-white pl-2.5 py-1 md:py-2 rounded">
+        </div>
+        <div>
+          <button id="reset-btn" class="px-2 md:px-7 tracking-widest md:py-1 bg-slate-800 text-white rounded cursor-pointer">Reset</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="mt-10 font-poppins">
+    <div class="main-container container bg-slate-50 rounded shadow-md mx-auto p-2.5 pt-6 pb-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 justify-items-center items-center">
+      
+    </div>
+  </main>
+
+  <script src="./index.js"></script>
+</body>
+</html>
